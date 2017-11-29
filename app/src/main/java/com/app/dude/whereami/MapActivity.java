@@ -210,6 +210,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     getLifecycle().addObserver(new LocationService((LocationManager) getSystemService(Context.LOCATION_SERVICE), this));
                 } else {
+                    progressBar.setVisibility(View.GONE);
                     Toast.makeText(this, getResources().getString(R.string.error_permission_denied), Toast.LENGTH_SHORT).show();
                 }
                 return;
