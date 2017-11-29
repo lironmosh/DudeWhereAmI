@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dude, Where Am I?</string>
+    <string name="error_place_call_failed">Error fetching current location data</string>
+    <string name="error_search_call_failed">Error fetching the location</string>
+    <string name="error_prediction_call_failed">Error fetching place prediction data</string>
+    <string name="error_permission_denied">Can\'t display current location without permission</string>
+    <string name="search_hint">Enter a location name</string>
+    <string name="search_not_made">Your results will\nbe displayed here</string>
+    <string name="search_empty">No results</string>
+</resources>
